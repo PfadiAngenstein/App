@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pfadi Angenstein</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imgdesc">imgdesc</string>
+    <!-- Title -->
+    <string-array name="titles">
+        <item>Wölfli</item>
+        <item>Pfadi</item>
+        <item>Pios</item>
+        <item>APV</item>
+    </string-array>
+    <!-- Page Url -->
+    <string-array name="pageurl">
+        <item>http://www.pfadiangenstein.ch/sonstiges/android/woelfli.php</item>
+        <item>http://www.pfadiangenstein.ch/sonstiges/android/pfadi.php</item>
+        <item>http://www.pfadiangenstein.ch/sonstiges/android/pios.php</item>
+        <item>http://www.pfadiangenstein.ch/sonstiges/android/apv.php</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/woelfli</item>
+        <item>@drawable/pfadi</item>
+        <item>@drawable/pios</item>
+        <item>@drawable/apv</item>
+    </array>
+
+</resources>
