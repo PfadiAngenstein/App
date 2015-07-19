@@ -33,6 +33,7 @@ public class CustomAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
+
         ViewHolder holder = null;
         convertView = null;
         LayoutInflater mInflater = (LayoutInflater) context
