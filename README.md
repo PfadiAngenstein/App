@@ -1,5 +1,5 @@
 # Pfadi Angenstein
-App der Pfadi Angenstein, zu finden im [Play Store](https://play.google.com/store/apps/details?id=ch.pfadiangenstein).
+Die Android-App der Pfadi Angenstein, zu finden im [Play Store](https://play.google.com/store/apps/details?id=ch.pfadiangenstein).
 
 ## Enstehungsgeschichte
 Die App entstand im Rahmen einer Projektarbeit im Vorstudium von G. Mosimann.
