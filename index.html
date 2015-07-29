@@ -3,42 +3,67 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Pfadiangenstein by PfadiAngenstein</title>
-
+    <title>Android-App by PfadiAngenstein</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
-        <h1>Pfadiangenstein</h1>
+        <h1>Android-App</h1>
         <p>App der Pfadi Angenstein</p>
-
-        <p class="view"><a href="https://github.com/PfadiAngenstein/App">View the Project on GitHub <small>PfadiAngenstein/App</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/PfadiAngenstein/App/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/PfadiAngenstein/App/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/PfadiAngenstein/App">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/PfadiAngenstein/App" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/PfadiAngenstein/App/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/PfadiAngenstein/App/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
         <h1>
 <a id="pfadi-angenstein" class="anchor" href="#pfadi-angenstein" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pfadi Angenstein</h1>
 
-<p>App der Pfadi Angenstein, zu finden im <a href="https://play.google.com/store/apps/details?id=ch.pfadiangenstein">Play Store</a>.</p>
+<p>Die Android-App der Pfadi Angenstein, zu finden im <a href="https://play.google.com/store/apps/details?id=ch.pfadiangenstein">Play Store</a>.</p>
+
+<h2>
+<a id="enstehungsgeschichte" class="anchor" href="#enstehungsgeschichte" aria-hidden="true"><span class="octicon octicon-link"></span></a>Enstehungsgeschichte</h2>
+
+<p>Die App entstand im Rahmen einer Projektarbeit im Vorstudium von G. Mosimann.</p>
+
+<h2>
+<a id="zur-funktionsweise" class="anchor" href="#zur-funktionsweise" aria-hidden="true"><span class="octicon octicon-link"></span></a>Zur Funktionsweise</h2>
+
+<p>Auf dem Webserver der Pfadi Angenstein liegen <code>.php</code>-Dateien, welche die jeweiligen Datenlisten aus der Datenbank auslesen.</p>
+
+<p>Die App selber ruft diese Dateien mittels einem <code>WebView</code> auf.</p>
+
+<p>Für die genaue Funktionsweise kann der Source Code auf <a href="http://pfadiangenstein.github.io/App">Github</a> studiert werden.</p>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/PfadiAngenstein">PfadiAngenstein</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>Project maintained by <a href="https://github.com/PfadiAngenstein">PfadiAngenstein</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
