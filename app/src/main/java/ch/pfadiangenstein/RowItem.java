@@ -1,8 +1,6 @@
 package ch.pfadiangenstein;
 
-/**
- * Created by Jonas Grueter on 22.05.2015.
- */
+
 public class RowItem {
 
     private String title;
