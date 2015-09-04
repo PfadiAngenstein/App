@@ -19,10 +19,7 @@ import android.app.FragmentManager;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Jonas Grueter on 22.05.2015.
- *
- */
+
 public class MainActivity extends Activity {
 
     String[] menutitles;
