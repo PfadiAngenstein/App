@@ -14,9 +14,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.widget.Toast;
 
-/**
- * Created by Jonas Grueter on 22.05.2015.
- */
+
 public class MyWebViewFragment extends Fragment {
 
     ProgressDialog mProgress;
@@ -62,7 +60,7 @@ public class MyWebViewFragment extends Fragment {
     /**
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if ((keyCode == KeyEvent.KEYCODE_BACK) && webview.canGoBack()) {
-            // wenn zurück-Button gedrückt und WebView kann zurück navigieren, gehe zurück
+            // wenn zurÃ¼ck-Button gedrÃ¼ckt und WebView kann zurÃ¼ck navigieren, gehe zurÃ¼ck
             webview.goBack();
             return true;
         } else {
@@ -70,9 +68,7 @@ public class MyWebViewFragment extends Fragment {
         }
         return true;
     }
-**/
-
-
+    **/
 
 }
 
