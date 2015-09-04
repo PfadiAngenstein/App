@@ -12,9 +12,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by Jonas Grueter on 22.05.2015.
- */
 public class CustomAdapter extends BaseAdapter {
 
     Context context;
